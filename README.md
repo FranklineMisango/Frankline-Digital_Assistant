@@ -11,7 +11,8 @@
 Frank's Digital Assitant is a personal assistant that is designed to understand your documents, search the internet, and in future versions, create and understand images, and communicate with you. It is built in Python, mainly using Langchain and implements most of Langchain's capabilities.
 
 ### How to Install & Run
-
+- run `pyenv install 3.10.0` to enable poetry install run PEP517 
+- run `poetry env use 3.10.0` to enable poetry install 
 - run `poetry install` to install packages
 - run `docker-compose up` if you wanna store your embeddings in milvus or use serxng for searching the internet
 - run `poetry run uvicorn sam.main:app --reload` to run rest server (grpc still WIP)
