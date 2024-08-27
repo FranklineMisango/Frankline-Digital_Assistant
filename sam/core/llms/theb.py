@@ -1,7 +1,7 @@
 from typing import Any, Dict, List, Optional
 
-import gpt4free
-from gpt4free import Provider
+import g4f
+from g4f import Provider
 from langchain.llms.base import LLM
 from pydantic import Extra
 

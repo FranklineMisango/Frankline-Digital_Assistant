@@ -18,8 +18,11 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from tls_client import Session as TLS
 
-from gpt4free.quora.api import Client as PoeClient
-from gpt4free.quora.mail import Emailnator
+#from g4f.quora.api import Client as PoeClient
+#from g4f.quora.mail import Emailnator
+
+from .api import Client as PoeClient
+from .mail import Emailnator
 
 SELENIUM_WEB_DRIVER_ERROR_MSG = b'''The error message you are receiving is due to the `geckodriver` executable not 
 being found in your system\'s PATH. To resolve this issue, you need to download the geckodriver and add its location 

@@ -5,11 +5,10 @@ from re import findall
 from time import time, sleep
 from typing import Generator, Optional
 from uuid import uuid4
-
+from tempmail import TempMail
 from Crypto.Cipher import AES
 from Crypto.Random import get_random_bytes
 from fake_useragent import UserAgent
-from mailgw_temporary_email import Email
 from requests import post
 from tls_client import Session
 
