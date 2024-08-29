@@ -27,6 +27,7 @@ async def hello():
     return {"hello": "wooooooorld"}
 
 
+#TODO - bypass to function v2
 class MessageRequest(BaseModel):
     message: str
 
